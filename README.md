@@ -28,5 +28,4 @@ It showcases my skills, experience, and provides a way to contact me through a w
 
 ---
 
-## 📁 Project Structure
 
