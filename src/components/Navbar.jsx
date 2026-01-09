@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-
   return (
     <nav className="fixed top-0 left-0 w-full z-10 bg-white/80 dark:bg-[#0f172a]/80 backdrop-blur-md border-b border-cyan-400/20 transition-all duration-300">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center text-gray-800 dark:text-white">
@@ -12,7 +10,6 @@ const Navbar = () => {
           hover:shadow-cyan-500/50 transition-all duration-300 cursor-pointer">
             VB
           </div>
-
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 font-medium">
           {["Home", "About", "Skills", "Projects", "Contact"].map((item) => (
@@ -27,7 +24,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
         {/* Mobile Hamburger Button */}
         <button
           onClick={() => setOpen(!open)}
@@ -36,7 +32,6 @@ const Navbar = () => {
           {open ? <FaTimes /> : <FaBars />}
         </button>
       </div>
-
       {/* Mobile Menu */}
       {open && (
         <ul className="md:hidden flex flex-col items-center gap-6 py-6 bg-[#0f172a] text-white font-medium">
@@ -55,6 +50,4 @@ const Navbar = () => {
     </nav>
   );
 };
-
 export default Navbar;
-

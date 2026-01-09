@@ -115,5 +115,4 @@ const Contact = () => {
     </motion.section>
   );
 };
-
 export default Contact;

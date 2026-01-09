@@ -11,8 +11,7 @@ const About = () => {
       <Reveal>
         <h2 className="text-4xl font-bold mb-6 text-cyan-500">About Me</h2>
         <p className="max-w-2xl mx-auto text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
-          I’m a self-taught Software developer who enjoys creating functional and visually appealing websites.
-          My focus is on writing clean, efficient code and delivering smooth user experiences.
+          I’m a Self-taught Software Developer focused on clean code, performance, and scalable web applications.
         </p>
       </Reveal>
     </section>
