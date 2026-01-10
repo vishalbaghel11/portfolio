@@ -1,3 +1,22 @@
+/* ===================== */
+/* Background & full viewport */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* yahan apna desired color dal sakte ho */
+  font-family: sans-serif;
+}
+
+/* Optional: force same background in dark mode */
+@media (prefers-color-scheme: dark) {
+  html, body, #root {
+    background-color: #f0f0f0 !important;
+  }
+}
+
+/* ===================== */
+/* Root container */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,6 +24,8 @@
   text-align: center;
 }
 
+/* ===================== */
+/* Logos */
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -18,6 +39,8 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* ===================== */
+/* Logo spin animation */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -33,10 +56,13 @@
   }
 }
 
+/* ===================== */
+/* Card */
 .card {
   padding: 2em;
 }
 
+/* Read the docs link */
 .read-the-docs {
   color: #888;
 }
