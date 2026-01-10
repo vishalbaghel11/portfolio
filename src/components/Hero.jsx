@@ -4,21 +4,22 @@ import Reveal from "./Reveal";
 
 const Hero = () => {
   return (
-   <section
+  <section
   id="home"
-  className="pt-24 min-h-screen w-full flex flex-col justify-center items-center text-center
-bg-gradient-to-r from-[#0f172a] via-[#1e293b] to-[#0f172a] dark:from-[#0f172a]text-white relative overflow-hidden transition-all duration-500"
-
+  className="pt-24 min-h-screen w-screen flex flex-col justify-center items-center text-center
+  bg-gradient-to-r from-[#0f172a] via-[#1e293b] to-[#0f172a]
+  text-white relative overflow-hidden transition-all duration-500"
 >
+
+
       <Reveal>
         <h1 className="text-5xl md:text-6xl font-bold mb-4 text-cyan-500">
-          Hey, I’m Vishal Baghel 👋
+          Ram Ram Sa, I’m Vishal Baghel 🙏🏻
         </h1>
       </Reveal>
       <Reveal delay={0.3}>
-        <p className="text-lg md:text-xl max-w-xl text-gray-700 dark:text-gray-300">
-          I’m a passionate Software engineer who loves building modern and creative web experiences 
-          with smooth animations and responsive UI.
+        <p className="text-lg md:text-xl max-w-xl text-white">
+         I’m a passionate Software engineer who loves to build end to end  modern and creative web experiences.
         </p>
       </Reveal>
 
